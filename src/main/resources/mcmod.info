@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rwbymod",
+  "name": "The Minecraft RWBY Mod",
+  "description": "Adds items and more from RoosterTeeth's hit show RWBY.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["tripl3dogdare"],
+  "credits": "All names, images, etc. in this mod belong to RoosterTeeth. This is a fan mod made to promote the series. Please support the official release.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
