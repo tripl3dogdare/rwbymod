@@ -16,6 +16,9 @@ public class RenderRegistry {
 	public static void init() {
 		registerSimpleMetaItemRenderer(ItemRegistry.dust, EnumDustType.values().length);
 		registerItemColorHandler(new ColorizerDust(), ItemRegistry.dust);
+		
+		registerSimpleMetaItemRenderer(ItemRegistry.dustCrystal, EnumDustType.values().length);
+		registerItemColorHandler(new ColorizerDust(), ItemRegistry.dustCrystal);
 
 		registerSimpleMetaBlockRenderer(BlockRegistry.dustOre, EnumDustType.primary.size());
 		registerBlockColorHandler(new ColorizerDust(1), BlockRegistry.dustOre);
