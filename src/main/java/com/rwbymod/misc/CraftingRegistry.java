@@ -6,6 +6,8 @@ import com.rwbymod.item.ItemRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class CraftingRegistry {
 	
@@ -27,6 +29,17 @@ public class CraftingRegistry {
 				'd', new ItemStack(ItemRegistry.dust, 1, type.ordinal()),
 				'q', Items.QUARTZ
 			);
+		
+		GameRegistry.addRecipe(new ShapedOreRecipe(
+			new ItemStack(ItemRegistry.scroll), 
+			"ini",
+			"ngn",
+			"ici",
+			'i', "ingotIron",
+			'n', "nuggetIron",
+			'g', "paneGlassColorless",
+			'c', new ItemStack(ItemRegistry.dustCrystal, 1, OreDictionary.WILDCARD_VALUE)
+		));
 	}
 	
 	private static void addDustMixingRecipe(EnumDustType out, EnumDustType in1, EnumDustType in2) {

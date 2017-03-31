@@ -2,6 +2,7 @@
 
 item.rwbymod.dust.name=Dust
 item.rwbymod.dust_crystal.name=Dust Crystal
+item.rwbymod.scroll.name=Scroll
 
 tile.rwbymod.dust_ore.name=Dust Ore
 
@@ -17,3 +18,5 @@ rwbymod.dust.steam=Steam
 rwbymod.dust.gravity=Gravity
 
 rwbymod.tooltip.dusttype=Dust Type: %s
+rwbymod.tooltip.owner=Owner: %s
+rwbymod.tooltip.bindonpickup=Binds on pickup
