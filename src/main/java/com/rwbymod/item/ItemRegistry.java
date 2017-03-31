@@ -1,16 +1,20 @@
 package com.rwbymod.item;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class ItemRegistry {
 
 	public static Item dust;
 	public static Item dustCrystal;
+	public static Item scroll;
 	
 	public static void init() {
 		dust = register(new ItemDust());
 		dustCrystal = register(new ItemDustCrystal());
+		scroll = register(new ItemScroll());
 	}
 	
 	// ----- UTILITY FUNCTIONS ----- //
