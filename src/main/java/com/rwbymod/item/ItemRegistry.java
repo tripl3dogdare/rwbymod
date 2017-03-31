@@ -1,5 +1,7 @@
 package com.rwbymod.item;
 
+import com.rwbymod.misc.EnumDustStimulus;
+
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -13,7 +15,7 @@ public class ItemRegistry {
 	
 	public static void init() {
 		dust = register(new ItemDust());
-		dustCrystal = register(new ItemDustCrystal());
+		dustCrystal = register(new ItemDustContainer("dust_crystal") {});
 		scroll = register(new ItemScroll());
 	}
 	
