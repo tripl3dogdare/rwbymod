@@ -20,3 +20,6 @@ build
 # other
 eclipse
 run
+Thumbs.db
+*.txt
+gradle*
